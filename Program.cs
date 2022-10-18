@@ -62,3 +62,54 @@ for (int i =  num1 ; i<=num ; i++ ){
    }
 }
 */  
+
+//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+/*
+int SearchNumber   (int num1)
+{
+   int  digit1  =num1 % 100/10 ;
+   return  digit1;
+}
+
+Console.WriteLine("Input int number");
+int  num  = Convert.ToInt16(Console.ReadLine());
+int result =  SearchNumber(num);
+Console.WriteLine(result);
+*/
+//Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.  
+/*
+void SearchThirdFigure(int num)
+{
+    if  (num >=100){
+        string res = " третья цифры  в числе   " +  num.ToString()+" -> "+num.ToString()[2];
+        
+        Console.WriteLine(res);
+    }
+    else{
+        Console.WriteLine("Thierd  figure not found");
+    }
+}
+
+
+Console.WriteLine("Input int number");
+int  num  = Convert.ToInt32(Console.ReadLine());
+SearchThirdFigure(num);
+*/
+
+//Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+/*
+void  DayOfTheWeek  ( int  num)
+{
+    if (num!= 6 &  num != 7){
+        Console.WriteLine("Будничный день");
+    }
+    else{
+        Console.WriteLine("Выходной");
+    }
+}
+
+
+Console.WriteLine("input  int  number");
+int  num = Convert.ToInt16(Console.ReadLine());
+DayOfTheWeek(num);
+*/
